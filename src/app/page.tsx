@@ -172,7 +172,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="md:px-[120px] px-5 py-[48px] flex flex-col items-center max-w-screen-2xl mx-auto">
+          <div className="md:px-[120px] px-5 py-[96px] flex flex-col items-center max-w-screen-2xl mx-auto">
             <div className="max-w-[730px]">
               <h2 className="font-semibold md:text-2xl space-y-2 [&>span]:block">
                 <span>Why Leading Businesses</span>
@@ -324,6 +324,49 @@ export default function Home() {
                 </Marquee>
               </div>
             )}
+          </div>
+        </div>
+        <div id="founder">
+          <div className="w-full max-w-full px-5 md:px-[120px] pt-[36px] pb-[96px]">
+            <div className="flex items-center justify-center">
+              <div className="w-full md:w-[1200px] flex flex-col text-center items-center justify-center">
+                <div className="h-auto md:h-[92px] flex flex-col gap-[8px]">
+                  {/* <p className="text-base md:text-xl lg:text-3xl font-semibold">
+                    A Message
+                  </p> */}
+                  <p
+                    className={`${gilda.className} text-2xl md:text-3xl lg:text-5xl font-gilda-display`}
+                  >
+                    Message From The Founder
+                  </p>
+                </div>
+                <div className=" flex flex-col gap-2 md:gap-2.5 lg:gap-[26px] md:mt-0 mt-[24px] space-y-[26px] md:space-y-0">
+                  <p className="text-base pt-2">
+                    &quot;At Magna Partners, we see every young Indonesian not
+                    just as a participant in our nation&apos;s future, but as
+                    the driving force behind it. We are committed to unlocking
+                    the boundless potential within each youth, transforming them
+                    into visionary leaders and innovators. Through our support
+                    and guidance, we don&apos;t just shape contributors; we
+                    cultivate the architects of Indonesia&apos;s bright and
+                    prosperous tomorrow.&quot;
+                  </p>
+                  <p className="text-base font-bold">
+                    Micah Davis - Co-founder and Strategic Advisor
+                  </p>
+                </div>
+
+                <div className="flex items-center px-[29px] py-[13px] h-[50px] rounded-3xl border border-white md:mt-5 mt-[24px]">
+                  <Link
+                    className="font-gilda-display"
+                    href={"https://www.google.com/"}
+                    target="_blank"
+                  >
+                    Know More About Micah
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
